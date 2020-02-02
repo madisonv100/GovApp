@@ -20,7 +20,7 @@ class SubscribePage: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        //tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         
         // Do any additional setup after loading the view.
     
@@ -44,13 +44,13 @@ extension SubscribePage: UITableViewDataSource, UITableViewDelegate{
    
     }
      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? TableViewCell
             if searching{
-                cell?.textLabel?.text = SearchArray[indexPath.row]
+                cell?.label?.text = SearchArray[indexPath.row]
             }
             else
             {
-               cell?.textLabel?.text = subArray[indexPath.row]
+               cell?.label?.text = subArray[indexPath.row]
             }
         
         return cell!
