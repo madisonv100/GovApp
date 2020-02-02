@@ -14,7 +14,7 @@ class SubscribePage: UIViewController {
     
     @IBOutlet weak var searchBar: UISearchBar!
     
-    let subArray = ["Traffic", "Weather", "Police"]
+    let subArray = ["Traffic", "Weather", "Crime", "Politics", "Education", "Sports", "Business/Economics", "Entertainment"]
     var SearchArray = [String]()
     var searching = false
     
