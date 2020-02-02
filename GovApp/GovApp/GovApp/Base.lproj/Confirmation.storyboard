@@ -24,7 +24,11 @@
                                 <rect key="frame" x="20" y="105" width="400" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="SFProRounded-Regular" family="SF Pro Rounded" pointSize="27"/>
+<<<<<<< HEAD
                                 <color key="textColor" red="0.43021038169999998" green="0.45820242169999997" blue="0.19601488110000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+=======
+                                <color key="textColor" red="0.43011558055877686" green="0.45854413509368896" blue="0.19993847608566284" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+>>>>>>> 0ad39c2bcb95cc2410643dfc7d3773cb70dfec13
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1cC-GY-1kN">

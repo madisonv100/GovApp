@@ -23,8 +23,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <searchBar contentMode="redraw" fixedFrame="YES" barStyle="blackTranslucent" text="Enter your County or City" translatesAutoresizingMaskIntoConstraints="NO" id="FkJ-ff-lbF">
                                 <rect key="frame" x="20" y="414" width="374" height="56"/>
+=======
+                            <searchBar contentMode="redraw" fixedFrame="YES" barStyle="blackTranslucent" text="Enter your County, City, or Zip Code" translatesAutoresizingMaskIntoConstraints="NO" id="FkJ-ff-lbF">
+                                <rect key="frame" x="0.0" y="516" width="374" height="56"/>
+>>>>>>> 0ad39c2bcb95cc2410643dfc7d3773cb70dfec13
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" red="0.1143476442" green="0.14029774070000001" blue="0.18039745090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -44,11 +49,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bb-tk-1lv">
+<<<<<<< HEAD
                                 <rect key="frame" x="320" y="470" width="65" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.43021038169999998" green="0.45820242169999997" blue="0.19601488110000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="SFProRounded-Thin" family="SF Pro Rounded" pointSize="12"/>
                                 <state key="normal" title="SEARCH">
+=======
+                                <rect key="frame" x="310" y="572" width="55" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43011558059999999" green="0.45854413510000003" blue="0.19993847610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Search">
+>>>>>>> 0ad39c2bcb95cc2410643dfc7d3773cb70dfec13
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -61,10 +74,34 @@
                                     <segue destination="bR0-9Y-bZR" kind="show" id="hs8-fw-tsf"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WASHINGTON FEED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAv-oR-sjm">
+                                <rect key="frame" x="18" y="101" width="371" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFProRounded-Regular" family="SF Pro Rounded" pointSize="35"/>
+                                <color key="textColor" red="0.43011558059999999" green="0.45854413510000003" blue="0.19993847610000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your one-stop newsletter subscripton" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gtc-wr-dki">
+                                <rect key="frame" x="18" y="151" width="339" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFProRounded-Regular" family="SF Pro Rounded" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="ubP-TH-5NF">
+                                <rect key="frame" x="-3" y="101" width="421" height="503"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+>>>>>>> 0ad39c2bcb95cc2410643dfc7d3773cb70dfec13
                         </subviews>
                         <color key="backgroundColor" red="0.1143476442" green="0.14029774070000001" blue="0.18039745090000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="image" destination="ubP-TH-5NF" id="saT-0u-S9m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -91,4 +128,7 @@
             <point key="canvasLocation" x="947.82608695652186" y="118.52678571428571"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image-1" width="266.66665649414062" height="178"/>
+    </resources>
 </document>

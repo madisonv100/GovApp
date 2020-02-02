@@ -19,6 +19,7 @@
 		7A07ED3023E652C700AC1D19 /* ConfirmationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07ED2F23E652C700AC1D19 /* ConfirmationPage.swift */; };
 		7A07ED3323E6532D00AC1D19 /* Confirmation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A07ED3123E6532D00AC1D19 /* Confirmation.storyboard */; };
 		7A07ED3523E6534F00AC1D19 /* SubscribePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A07ED3423E6534F00AC1D19 /* SubscribePage.storyboard */; };
+		7A07ED3B23E6E80600AC1D19 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07ED3A23E6E80600AC1D19 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7A07ED2F23E652C700AC1D19 /* ConfirmationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationPage.swift; sourceTree = "<group>"; };
 		7A07ED3223E6532D00AC1D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GovApp/Base.lproj/Confirmation.storyboard; sourceTree = "<group>"; };
 		7A07ED3423E6534F00AC1D19 /* SubscribePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SubscribePage.storyboard; sourceTree = "<group>"; };
+		7A07ED3A23E6E80600AC1D19 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				7A07ED0F23E6508F00AC1D19 /* ViewController.swift */,
 				7A07ED2F23E652C700AC1D19 /* ConfirmationPage.swift */,
 				7A07ED2D23E652A000AC1D19 /* SubscribePage.swift */,
+				7A07ED3A23E6E80600AC1D19 /* TableViewCell.swift */,
 				7A07ED1423E6509100AC1D19 /* Assets.xcassets */,
 				2964047123E67DD7004DE679 /* Fonts */,
 				7A07ED1623E6509100AC1D19 /* LaunchScreen.storyboard */,
@@ -221,6 +224,7 @@
 				7A07ED1023E6508F00AC1D19 /* ViewController.swift in Sources */,
 				7A07ED2E23E652A000AC1D19 /* SubscribePage.swift in Sources */,
 				7A07ED3023E652C700AC1D19 /* ConfirmationPage.swift in Sources */,
+				7A07ED3B23E6E80600AC1D19 /* TableViewCell.swift in Sources */,
 				7A07ED0C23E6508F00AC1D19 /* AppDelegate.swift in Sources */,
 				7A07ED0E23E6508F00AC1D19 /* SceneDelegate.swift in Sources */,
 			);
