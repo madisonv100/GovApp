@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2964047223E67DD7004DE679 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 2964047123E67DD7004DE679 /* Fonts */; };
 		7A07ED0C23E6508F00AC1D19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07ED0B23E6508F00AC1D19 /* AppDelegate.swift */; };
 		7A07ED0E23E6508F00AC1D19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07ED0D23E6508F00AC1D19 /* SceneDelegate.swift */; };
 		7A07ED1023E6508F00AC1D19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07ED0F23E6508F00AC1D19 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2964047123E67DD7004DE679 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../../../../../../Library/Fonts; sourceTree = "<group>"; };
 		7A07ED0823E6508F00AC1D19 /* GovApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GovApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A07ED0B23E6508F00AC1D19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A07ED0D23E6508F00AC1D19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				7A07ED2F23E652C700AC1D19 /* ConfirmationPage.swift */,
 				7A07ED2D23E652A000AC1D19 /* SubscribePage.swift */,
 				7A07ED1423E6509100AC1D19 /* Assets.xcassets */,
+				2964047123E67DD7004DE679 /* Fonts */,
 				7A07ED1623E6509100AC1D19 /* LaunchScreen.storyboard */,
 				7A07ED1923E6509100AC1D19 /* Info.plist */,
 			);
@@ -195,6 +198,7 @@
 				7A07ED3523E6534F00AC1D19 /* SubscribePage.storyboard in Resources */,
 				7A07ED1823E6509100AC1D19 /* LaunchScreen.storyboard in Resources */,
 				7A07ED1523E6509100AC1D19 /* Assets.xcassets in Resources */,
+				2964047223E67DD7004DE679 /* Fonts in Resources */,
 				7A07ED1323E6508F00AC1D19 /* Main.storyboard in Resources */,
 				7A07ED3323E6532D00AC1D19 /* Confirmation.storyboard in Resources */,
 			);
